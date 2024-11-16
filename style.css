@@ -1,0 +1,57 @@
+.car-section-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: #dadada;
+  height: 100vh;
+  padding: 20px;
+}
+.car-section-container .car-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  border-radius: 15px;
+  padding: 0 5px;
+  height: 280px;
+  font-size: 24px;
+  transition: 0.3s;
+  position: relative;
+  cursor: pointer;
+}
+.car-section-container .car-card:hover {
+  box-shadow: 20px 5px 15px rgba(0, 0, 0, 0.1);
+  transform: rotateX(0deg) rotateY(30deg) rotateZ(0);
+}
+.car-section-container .car-card:hover span {
+  text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.car-section-container .car-section-image-container {
+  background-color: rgb(95, 86, 86);
+  margin-bottom: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  width: 200px;
+  height: 150px;
+}
+.car-section-container .car-card img {
+  width: 200px;
+  transition: 0.3s;
+}
+.car-section-container .car-card span {
+  margin-top: 10px;
+  transition: 0.3s;
+}
+.car-section-container .car-card button {
+  position: absolute;
+  bottom: 10px;
+  width: 88%;
+  background-color: rgb(198, 53, 53);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-weight: 900;
+  height: 35px;
+}
